@@ -1,0 +1,90 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ascotrivers.tiktokredirect"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/root/TikTokRedirect/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->/root/TikTokRedirect/app/src/main/AndroidManifest.xml
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/31dd2fd25ee9a0eaa021c7cd8a443f22/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+12        android:name="com.ascotrivers.tiktokredirect.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/31dd2fd25ee9a0eaa021c7cd8a443f22/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/31dd2fd25ee9a0eaa021c7cd8a443f22/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.ascotrivers.tiktokredirect.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/31dd2fd25ee9a0eaa021c7cd8a443f22/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/31dd2fd25ee9a0eaa021c7cd8a443f22/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->/root/TikTokRedirect/app/src/main/AndroidManifest.xml:4:5-19:19
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/31dd2fd25ee9a0eaa021c7cd8a443f22/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+19        android:debuggable="true"
+20        android:label="TikTok Redirect"
+20-->/root/TikTokRedirect/app/src/main/AndroidManifest.xml:5:9-40
+21        android:theme="@android:style/Theme.NoDisplay" >
+21-->/root/TikTokRedirect/app/src/main/AndroidManifest.xml:6:9-55
+22        <activity
+22-->/root/TikTokRedirect/app/src/main/AndroidManifest.xml:8:9-17:20
+23            android:name="com.ascotrivers.tiktokredirect.TikTokRedirectActivity"
+23-->/root/TikTokRedirect/app/src/main/AndroidManifest.xml:8:19-57
+24            android:exported="true" >
+24-->/root/TikTokRedirect/app/src/main/AndroidManifest.xml:9:13-36
+25            <intent-filter>
+25-->/root/TikTokRedirect/app/src/main/AndroidManifest.xml:10:13-16:29
+26                <action android:name="android.intent.action.VIEW" />
+26-->/root/TikTokRedirect/app/src/main/AndroidManifest.xml:11:17-69
+26-->/root/TikTokRedirect/app/src/main/AndroidManifest.xml:11:25-66
+27
+28                <category android:name="android.intent.category.DEFAULT" />
+28-->/root/TikTokRedirect/app/src/main/AndroidManifest.xml:12:17-76
+28-->/root/TikTokRedirect/app/src/main/AndroidManifest.xml:12:27-73
+29                <category android:name="android.intent.category.BROWSABLE" />
+29-->/root/TikTokRedirect/app/src/main/AndroidManifest.xml:13:17-78
+29-->/root/TikTokRedirect/app/src/main/AndroidManifest.xml:13:27-75
+30
+31                <data
+31-->/root/TikTokRedirect/app/src/main/AndroidManifest.xml:14:17-78
+32                    android:host="www.tiktok.com"
+32-->/root/TikTokRedirect/app/src/main/AndroidManifest.xml:14:46-75
+33                    android:scheme="https" />
+33-->/root/TikTokRedirect/app/src/main/AndroidManifest.xml:14:23-45
+34                <data
+34-->/root/TikTokRedirect/app/src/main/AndroidManifest.xml:14:17-78
+35                    android:host="vm.tiktok.com"
+35-->/root/TikTokRedirect/app/src/main/AndroidManifest.xml:14:46-75
+36                    android:scheme="https" />
+36-->/root/TikTokRedirect/app/src/main/AndroidManifest.xml:14:23-45
+37            </intent-filter>
+38        </activity>
+39
+40        <provider
+40-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/4fba12ef4182f687d009f13c4de2cd9c/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+41            android:name="androidx.startup.InitializationProvider"
+41-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/4fba12ef4182f687d009f13c4de2cd9c/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+42            android:authorities="com.ascotrivers.tiktokredirect.androidx-startup"
+42-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/4fba12ef4182f687d009f13c4de2cd9c/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+43            android:exported="false" >
+43-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/4fba12ef4182f687d009f13c4de2cd9c/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+44            <meta-data
+44-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/4fba12ef4182f687d009f13c4de2cd9c/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+45                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+45-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/4fba12ef4182f687d009f13c4de2cd9c/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+46                android:value="androidx.startup" />
+46-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/4fba12ef4182f687d009f13c4de2cd9c/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+47            <meta-data
+47-->[androidx.lifecycle:lifecycle-process:2.4.1] /root/.gradle/caches/transforms-3/182c6acf2d047ec1c362279ce2c7618c/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+48                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+48-->[androidx.lifecycle:lifecycle-process:2.4.1] /root/.gradle/caches/transforms-3/182c6acf2d047ec1c362279ce2c7618c/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+49                android:value="androidx.startup" />
+49-->[androidx.lifecycle:lifecycle-process:2.4.1] /root/.gradle/caches/transforms-3/182c6acf2d047ec1c362279ce2c7618c/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+50        </provider>
+51    </application>
+52
+53</manifest>
