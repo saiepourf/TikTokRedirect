@@ -1,0 +1,1 @@
+name: Dummy Workflow\non: workflow_dispatch\njobs:\n  noop:\n    runs-on: ubuntu-latest\n    steps:\n      - run: echo 'Triggering re-index'
